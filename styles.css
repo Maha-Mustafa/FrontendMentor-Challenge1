@@ -1,5 +1,6 @@
 body{
     background-color: #D5E1EF;
+    margin: 100px auto;
 }
 .card {
     background-color: #ffffff;
@@ -7,6 +8,7 @@ body{
     margin: 0 auto;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .card img{
     width: 300px;
@@ -29,10 +31,13 @@ body{
 @media (max-width: 600px) {
     .card {
       width: 90%;
+      max-width: 400px;
+      margin: 0 auto;
     }
     
     .card img {
       width: 90%;
+      height: auto;
       margin: 20px auto;
     }
     
